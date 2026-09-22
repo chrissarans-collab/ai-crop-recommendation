@@ -1,17 +1,76 @@
-# crop_recommendation_app
+# 🌱 CropWise AI
 
-A new Flutter project.
+## AI-Powered Crop Recommendation System
 
-## Getting Started
+CropWise AI helps farmers identify a suitable crop for their land based on soil and environmental conditions.
 
-This project is a starting point for a Flutter application.
+The farmer enters the following details:
 
-A few resources to get you started if this is your first Flutter project:
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Temperature
+- Humidity
+- Soil pH
+- Rainfall
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+These values are sent to an AI/ML prediction backend, which analyzes the conditions and returns **one recommended crop**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🌾 How It Works
+
+Farmer enters land details  
+↓  
+Flutter application  
+↓  
+AI/ML prediction backend  
+↓  
+Crop prediction  
+↓  
+🌱 Recommended Crop
+
+## ✨ Features
+
+- 🌱 AI/ML-based crop recommendation
+- 🧪 Soil parameter analysis
+- 🌡️ Temperature and humidity input
+- 🌧️ Rainfall input
+- 📊 NPK soil analysis
+- ✅ Input validation
+- ⚡ Instant crop prediction
+- 🌐 Web application
+
+## 🛠️ Technology
+
+- Flutter
+- Dart
+- Flask
+- AI/ML
+- Firebase Hosting
+- Render
+- Git & GitHub
+
+## 🌐 Live Demo
+
+https://ai-crop-recommendation-8fb9f.web.app/
+
+## 📥 Input Parameters
+
+| Parameter | Description |
+|---|---|
+| Nitrogen (N) | Nitrogen level in soil |
+| Phosphorus (P) | Phosphorus level in soil |
+| Potassium (K) | Potassium level in soil |
+| Temperature | Environmental temperature |
+| Humidity | Environmental humidity |
+| Soil pH | Soil acidity/alkalinity |
+| Rainfall | Rainfall level |
+
+The system processes these seven inputs and returns **one recommended crop**.
+
+## 👨‍💻 Developer
+
+**Saran S**
+
+B.Tech Computer Science Engineering
+
+GitHub: https://github.com/chrissarans-collab
